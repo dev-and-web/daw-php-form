@@ -1,0 +1,55 @@
+{
+    "name": "dev-and-web/daw-php-form",
+    "description": "PHP library of simple Form helpers",
+    "type": "library",
+    "keywords": ["php","form"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Damian",
+            "email": "contact@devandweb.fr",
+            "homepage": "https://www.devandweb.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "contact@devandweb.fr",
+        "issues": "https://github.com/dev-and-web/daw-php-form/issues",
+        "source": "https://github.com/dev-and-web/daw-php-form",
+        "docs": "https://github.com/dev-and-web/daw-php-form/tree/master/docs/en"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5.*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "DawPhpForm\\": "src/DawPhpForm/"
+        }
+    },
+    "scripts": {
+        "tests": [
+            "php ./vendor/phpunit/phpunit/phpunit"
+        ],
+        "test-class": [
+            "php ./vendor/phpunit/phpunit/phpunit --filter"
+        ],
+
+        "co-i": [
+            "composer install --no-plugins --no-scripts"
+        ],
+        "co-u": [
+            "composer update --no-plugins --no-scripts"
+        ],
+        "co-s": [
+            "composer self-update"
+        ],
+        "co-d": [
+            "composer dump-autoload"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
