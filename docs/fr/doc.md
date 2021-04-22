@@ -12,9 +12,6 @@ DAW PHP Form est une librairie PHP pour générer vos champs de formulaires.
 
 * PHP >= 7.4
 
-Si vous souhaitez une comptabilité avec PHP 7.0 ou 7.1 ou PHP 7.2 ou PHP 7.3, vous pouvez utiliser la version 1.0 :
-[DAW PHP Form 1.0](https://github.com/dev-and-web/daw-php-form/tree/1.0)
-
 
 
 
