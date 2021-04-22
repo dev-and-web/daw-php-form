@@ -21,7 +21,7 @@ DAW PHP Form est une librairie PHP pour générer vos champs de formulaires.
 
 Installation via Composer :
 ```
-php composer.phar require dev-and-web/daw-php-form 2.0.*
+composer require dev-and-web/daw-php-form
 ```
 
 

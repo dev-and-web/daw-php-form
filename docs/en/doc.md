@@ -21,7 +21,7 @@ DAW PHP Form is a PHP library for generating your form fields.
 
 Installation via Composer :
 ```
-php composer.phar require dev-and-web/daw-php-form 2.0.*
+composer require dev-and-web/daw-php-form
 ```
 
 
